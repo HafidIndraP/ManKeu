@@ -55,3 +55,12 @@ footer{text-align:center;color:#c9b88e;font-size:.9rem;padding:0 16px 30px}
 .stp code{border:0;padding:2px 0;background:none;color:var(--wine)}
 .sub{font:.95rem/1.4 'Courier New',monospace;overflow-x:auto;padding:2px 0;color:var(--mute)}
 .rs{font-weight:600;color:var(--green)}
+
+#fq{margin:6px 0 14px;font-size:1rem}
+.fc{border:1px solid var(--brass);background:var(--paper2);padding:10px 16px;margin:0 0 14px}
+.fc>b{font:1.15rem 'IM Fell English',serif;color:var(--wine)}
+.fc code{margin:6px 0;white-space:pre-wrap}
+dl{display:grid;grid-template-columns:minmax(90px,max-content) 1fr;gap:2px 14px;margin:6px 0}
+dt{font:600 .95rem 'Courier New',monospace;color:var(--green)}
+dd{margin:0}
+.use{font-style:italic;color:var(--mute);margin:4px 0 0}
