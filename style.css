@@ -24,7 +24,7 @@ a{color:var(--wine)}
 .spine{position:relative;width:56px;color:var(--paper);text-decoration:none;display:flex;align-items:center;justify-content:center;border-radius:3px 3px 0 0;box-shadow:inset 3px 0 5px #fff2,inset -4px 0 6px #0007;background-image:linear-gradient(transparent 14px,var(--brass) 14px 16px,transparent 16px calc(100% - 16px),var(--brass) calc(100% - 16px) calc(100% - 14px),transparent calc(100% - 14px));transition:transform .15s}
 .spine:hover,.spine:focus-visible{transform:translateY(-10px)}
 .spine span{writing-mode:vertical-rl;transform:rotate(180deg);font:1rem/1.1 'IM Fell English',serif;padding:30px 0;max-height:100%;overflow:hidden}
-.p0{background-color:#6b1d27}.p1{background-color:#2f5a45}.p2{background-color:#2d3e5c}.p3{background-color:#7a4a1c}.p4{background-color:#4a2d5a}
+.p0{background-color:#6b1d27}.p1{background-color:#2f5a45}.p2{background-color:#2d3e5c}.p3{background-color:#7a4a1c}.p4{background-color:#4a2d5a}.p5{background-color:#26323a}
 .rib{position:absolute;top:0;right:8px;width:10px;height:46px;background:#c0392b;clip-path:polygon(0 0,100% 0,100% 100%,50% 80%,0 100%)}
 .fm{display:grid;gap:8px}
 code{background:#fffaf0;border-left:4px solid var(--brass);padding:6px 12px;font:.95rem/1.4 'Courier New',monospace;display:block;overflow-x:auto}
@@ -64,3 +64,12 @@ dl{display:grid;grid-template-columns:minmax(90px,max-content) 1fr;gap:2px 14px;
 dt{font:600 .95rem 'Courier New',monospace;color:var(--green)}
 dd{margin:0}
 .use{font-style:italic;color:var(--mute);margin:4px 0 0}
+
+.chip{display:inline-block;padding:0 9px;border-radius:10px;font:600 .78rem/1.5 'Courier New',monospace;white-space:nowrap;margin-top:2px}
+.l0{background:#8b1e1e;color:#fff}.l1{background:#c8602a;color:#fff}.l2{background:#e0bd4a;color:#2b1d12}.l3{background:#8fbf7a;color:#16260f}.l4{background:#1f5a2e;color:#fff}
+.rt th[colspan]{background:var(--wood2);color:var(--paper);font:400 1rem 'IM Fell English',serif}
+.rt input{width:100%;min-width:84px;font:inherit;padding:3px 6px;background:#fffaf0;border:1px solid var(--mute)}
+.rt td small{color:var(--mute)}
+.pt td{text-align:center;vertical-align:top;font-size:.85rem}
+.up{color:#1f5a2e}.dn{color:#8b1e1e}
+select{font:inherit;padding:4px 8px}
