@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ruang Belajar - Pusat Web Belajar Interaktif</title>
+<meta name="description" content="Pintu masuk ke semua web belajar interaktif per mata kuliah: statistika bisnis, manajemen keuangan, dan lainnya.">
+<meta name="theme-color" content="#0e1013">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IM+Fell+English:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#grid">Lewati ke daftar matkul</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="./" aria-label="Ruang Belajar, beranda">
+      <span class="brand-mark" aria-hidden="true">&#9670;</span>
+      <span class="brand-name">Ruang Belajar</span>
+    </a>
+    <span class="count mono" id="count" aria-live="polite"></span>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <p class="eyebrow mono" id="greet"></p>
+    <h1>Mau belajar <em>apa</em> hari ini?</h1>
+    <p class="lead">Satu pintu untuk semua web belajar interaktif. Tiap mata kuliah punya dunianya sendiri; pilih salah satu dan lanjut belajar.</p>
+    <div class="search">
+      <label for="q" class="sr">Cari mata kuliah</label>
+      <span class="search-ic mono" aria-hidden="true">/</span>
+      <input id="q" type="search" placeholder="Cari matkul, mis. SPSS, rasio, bab..." autocomplete="off" enterkeyhint="search">
+    </div>
+  </section>
+
+  <section id="resume" class="wrap resume" hidden></section>
+
+  <section class="wrap">
+    <div id="grid" class="grid" aria-live="polite"></div>
+    <p id="empty" class="empty" hidden>Tidak ada matkul yang cocok. Coba kata kunci lain.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Ruang Belajar &middot; kumpulan pendamping belajar interaktif. Ringkasan di tiap web ditulis ulang dari materi kuliah, bukan pengganti materi aslinya.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
